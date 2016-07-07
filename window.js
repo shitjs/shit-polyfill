@@ -24,6 +24,7 @@
           }
           break;
         case 'number':
+          obj[prop] = NaN;
           break;
       }
     }
