@@ -1,5 +1,5 @@
 (function (window) {
-  var title = 'Wanna use some java-script? Please, don't!';
+  var title = 'Wanna use some java-script? Please, don\'t!';
   window.alert = window.alert.bind(window, title);
 
   var ignore = [
